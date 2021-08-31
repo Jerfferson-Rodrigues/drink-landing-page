@@ -10,7 +10,7 @@
     <img alt="" title="" src=".github/coca.png" />
 </h1>
 
-:writing_hand:📚		Landing Page de bebidas
+:writing_hand:📚		Landing Page de :cocktail:	Bebidas :tropical_drink:
 
 ##  :technologist:	 Tecnologias :
 
