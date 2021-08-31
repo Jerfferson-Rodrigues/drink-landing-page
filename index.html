@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Soft Drink landing page</title>
+</head>
+
+<body>
+    <section class="sec">
+        <header>
+            <a href="#"><img src="./images/logo.png" class="logo"></a>
+            <div class="toggleMenu" onclick="menuToggle();"></div>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Newsletter</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <!-- <h2>That's Great<br /><span>I Want!</span></h2> -->
+                <h2>Isso é ótimo<br /><span>Eu quero!</span></h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, facilis libero esse eum
+                    corporis quibusdam, modi, perspiciatis quia dignissimos assumenda reprehenderit nostrum explicabo
+                    dicta culpa sequi praesentium nihil soluta autem...</p>
+                <a href="#">View All Products</a>
+            </div>
+            <div class="imgBox">
+                <img src="./images/pepsi002.png" class="pepsi">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="./images/pepsi002.png"
+                    onclick="imgSlider('./images/pepsi002.png');changeBgColor('#b71c1c');logo('./images/logo.png')">
+            </li>
+            <li><img src="./images/guarana.png"
+                    onclick="imgSlider('./images/guarana.png');changeBgColor('#3BCEAC');logo('./images/logogua.png')">
+            </li>
+            <li><img src="./images/refri.png"
+                    onclick="imgSlider('./images/refri.png');changeBgColor('#d81b60');logo('./images/logorefri.png')">
+            </li>
+            <li><img src="./images/coca.png"
+                    onclick="imgSlider('./images/coca.png');changeBgColor('#141414');logo('./images/logococa.png')">
+            </li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="./images/facebook.png"></a></li>
+            <li><a href="#"><img src="./images/twitter.png"></a></li>
+            <li><a href="#"><img src="./images/instagram.png"></a></li>
+        </ul>
+    </section>
+    <script src="./script.js"></script>
+</body>
+
+</html>
