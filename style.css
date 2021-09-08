@@ -180,7 +180,7 @@ header ul li a {
     position: relative;
     width: 41px;
     height: 41px;
-    background: url(/images/menu.png);
+    background: url(./images/menu.png);
     background-size: 40px;
     background-repeat: no-repeat;
     z-index: 2;
@@ -189,7 +189,7 @@ header ul li a {
   }
 
   .toggleMenu.active {
-    background: url(/images/close.png);
+    background: url(./images/close.png);
     background-position: center;
     background-size: 25px;
     background-repeat: no-repeat;
