@@ -130,6 +130,7 @@ header ul li a {
 
 @media (max-width: 991px) {
   section {
+    width: 100%;
     padding: 40px;
     padding-bottom: 150px;
   }
